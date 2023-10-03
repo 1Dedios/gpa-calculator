@@ -39,23 +39,6 @@ decimal gradePointAverage = (decimal) totalGradePoints/totalCreditHours;
 int leadingDigit = (int) gradePointAverage;
 int trailingDigits = (int) (gradePointAverage * 100) - (leadingDigit * 100);
 
-int firstDigit = (int) (gradePointAverage * 10) % 10;
-int secondDigit = (int) (gradePointAverage * 100 ) % 10;
-
-/* OUTPUT: SHOULD LOOK LIKE
-
-
-Student: Sophia Johnson
-
-Course          Grade   Credit Hours	
-English 101         4       3
-Algebra 101         3       3
-Biology 101         3       4
-Computer Science I  3       4
-Psychology 101      4       3
-
-Final GPA:          3.35 */ 
-
 Console.WriteLine($"Student: {studentName}\n");
 Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
 Console.Write("\n");
