@@ -37,6 +37,10 @@ totalGradePoints += course5Credit * course5Grade;
 decimal gradePointAverage = (decimal) totalGradePoints/totalCreditHours;
 
 int leadingDigit = (int) gradePointAverage;
+int trailingDigits = (int) (gradePointAverage * 100) - (leadingDigit * 100);
+
+int firstDigit = (int) (gradePointAverage * 10) % 10;
+int secondDigit = (int) (gradePointAverage * 100 ) % 10;
 
 /* OUTPUT: SHOULD LOOK LIKE
 
@@ -52,12 +56,13 @@ Psychology 101      4       3
 
 Final GPA:          3.35 */ 
 
-Console.WriteLine($"Student: {studentName}");
+Console.WriteLine($"Student: {studentName}\n");
+Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
 Console.Write("\n");
-Console.WriteLine("Course Grade");
-Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
-Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
-Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
-Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
-Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
-Console.WriteLine($"Final GPA: {gradePointAverage}");
+Console.WriteLine($"{course2Name}\t\t\t{course2Grade}\t{course2Credit}");
+Console.WriteLine($"{course1Name}\t\t\t{course1Grade}\t{course1Credit}");
+Console.WriteLine($"{course3Name}\t\t\t{course3Grade}\t{course3Credit}");
+Console.WriteLine($"{course4Name}\t\t{course4Grade}\t{course4Credit}");
+Console.WriteLine($"{course5Name}\t\t\t{course5Grade}\t{course5Credit}");
+Console.Write("\n");
+Console.WriteLine($"Final GPA:\t\t\t{leadingDigit}.{trailingDigits}");
