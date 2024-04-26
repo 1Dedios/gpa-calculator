@@ -17,7 +17,7 @@ Student: &ensp; Sophia Johnson
 Course&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Grade&emsp;Credit&emsp;Hours
 
 Algebra 101&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;3&emsp;&emsp;&emsp;3\
-English 101&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;4&emsp;&emsp;&emsp;&emsp;3\
+English 101&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;4&emsp;&emsp;&emsp;3\
 Biology 101&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;3&emsp;&emsp;&emsp;4\
 Computer Science I&emsp;&emsp;&emsp;3&emsp;&emsp;&emsp;4\
 Psychology 101&emsp;&emsp;&emsp;&emsp;&emsp;4&emsp;&emsp;&emsp;3
