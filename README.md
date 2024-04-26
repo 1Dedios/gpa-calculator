@@ -1,8 +1,9 @@
 # gpa-calculator
 
-GPA calculator written in C#.
+GPA calculator written in C#
 
-## Parameters of this Application:
+ 
+## Parameters of this Application: 
 
 - You're given the student's name and class information.
 - Each class has a name, the student's grade, and the number of credit hours for that class.
@@ -11,17 +12,15 @@ GPA calculator written in C#.
 
 ## Sample Output:
 
-Student: Sophia Johnson
+Student: &ensp; Sophia Johnson
 
-Course Grade Credit Hours
-English 101 4 3
-Algebra 101 3 3
-Biology 101 3 4
-Computer Science I 3 4
-Psychology 101 4 3
+Course&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Grade&emsp;Credit&emsp;Hours
 
-Final GPA: 3.35
+Algebra 101&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;3&emsp;&emsp;&emsp;3\
+English 101&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;4&emsp;&emsp;&emsp;&emsp;3\
+Biology 101&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;3&emsp;&emsp;&emsp;4\
+Computer Science I&emsp;&emsp;&emsp;3&emsp;&emsp;&emsp;4\
+Psychology 101&emsp;&emsp;&emsp;&emsp;&emsp;4&emsp;&emsp;&emsp;3
 
-### Training
+Final GPA:                      3.35
 
-Training in C# by Microsoft Learn
