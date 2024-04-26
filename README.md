@@ -11,6 +11,7 @@ GPA calculator written in C#
 - Your application needs to output/display the student’s name, class information, and GPA.
 
 ## Sample Output:
+<might be easier to just add a picture of the sample output than formatting it in markdown>
 
 Student: &ensp; Sophia Johnson
 
