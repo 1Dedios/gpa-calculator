@@ -15,7 +15,7 @@ GPA calculator written in C#
 
 Student: &ensp; Sophia Johnson
 
-Course&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Grade&emsp;Credit&emsp;Hours
+Course&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Grade&emsp;Credit Hours
 
 Algebra 101&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;3&emsp;&emsp;&emsp;3\
 English 101&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;4&emsp;&emsp;&emsp;3\
